@@ -8,7 +8,11 @@ module.exports = new Command({
     async run(message, args, client){
         randomPuppy(`${args.slice(1).join(" ")}`)
         .then(url => {
-            message.channel.send(url);;
+            if (url == null){
+                message.channel.send(`${args.slice(1).join(" ")} is not a valid subreddit.`);
+            } else{
+                message.channel.send(url);
+            }
         })
     }
 })
