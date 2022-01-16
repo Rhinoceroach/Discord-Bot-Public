@@ -11,5 +11,8 @@
   "dependencies": {
     "discord.js": "^14.0.0-dev.1642205165.7c07976",
     "random-puppy": "^1.1.0"
+  },
+  "engines": {
+    "node": "16.13.0"
   }
 }
