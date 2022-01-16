@@ -26,13 +26,5 @@ module.exports = new Command({
         //     ...new Set(client.commands.map(cmd => cmd.directory)),
         // ];
         // console.log(directories[0]);
-
-        // const embed = new Discord.MessageEmbed();
-        // message.channel.send(`hello: Says hello\n
-        // ping: Gives ping of bot\n
-        // say <text>: Make the bot say something\n
-        // roll <number>: Give a random number from 1 to number\n
-        // reddit <subreddit>: Get a random picture from a subreddit\n
-        // emote <emote_name>: Prints out an emote`);
     }
 });
